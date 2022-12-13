@@ -1,13 +1,15 @@
-# include <stdio.h>
-/**
- * main : prints the string
+# include <main.h>
+/** 
+ * main : pprints a string
  *
- * Description : using the main function
- * this program prints putchar
+ * desciption : these program prints _putchar using main
  * return 0
  */
-int main(void)
+int main()
 {
-	printf("_putchar'\n'");
+	char ch[20] = "0-putchar.c";
+	putchar(ch[20]);
+	printf(\n);
 	return (0);
 }
+	
