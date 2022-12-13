@@ -1,15 +1,18 @@
-# include <main.h>
-/** 
- * main : pprints a string
- *
- * desciption : these program prints _putchar using main
- * return 0
+# include "main.h"
+/*
+ * main : prints a string folowed by a new line
+ * Desciption : these program prints _putchar using main
+ * Return : always 0
  */
-int main()
+int main(void)
 {
-	char ch[20] = "0-putchar.c";
-	putchar(ch[20]);
-	printf(\n);
+	char ch[] = "-putchar";
+
+	for (int i = 0 ; i < 8 ; i++)
+	{
+		_putchar(ch[i]);
+	}
+
+	_putchar('\n');
 	return (0);
 }
-	
