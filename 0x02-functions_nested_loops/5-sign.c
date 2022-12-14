@@ -7,12 +7,9 @@
  */
 int print_sign(int n)
 {
-	char ch[] = "+";
-	char neg[] = "-";
-
 	if (n > 0)
 	{
-		_putchar(ch[]);
+		_putchar('+');
 		return (1);
 	}
 	if else(n == 0)
@@ -22,7 +19,7 @@ int print_sign(int n)
 	}
 	else
 	{
-		_putchar(neg[]);
+		_putchar('-');
 		return (-1);
 	}
 	return (0);
