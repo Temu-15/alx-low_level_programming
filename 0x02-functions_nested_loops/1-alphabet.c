@@ -10,7 +10,7 @@ void print_alphabet(void)
 	char alph[] = "abcdefghijklmnopqrstuvwxyz";
 	int i;
 
-	for (i = 0 ; i < 8 ; i++)
+	for (i = 0 ; i < 26 ; i++)
 	{
 		_putchar(alph[i]);
 	}
