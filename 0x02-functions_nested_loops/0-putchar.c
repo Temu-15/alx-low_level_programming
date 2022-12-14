@@ -1,18 +1,18 @@
-# include "main.h"
-/*
- * main : prints a string folowed by a new line
- * Desciption : these program prints _putchar using main
- * Return : always 0
- */
+#include "main.h"
+/**
+ *  * main - prints _putchar, fllowd by a new linees
+ *   * Return: Alwys 0 (Success)
+ *    */
 int main(void)
 {
-	char ch[] = "-putchar";
+		char abe[] = "_putchar";
 
-	for (int i = 0 ; i < 8 ; i++)
-	{
-		_putchar(ch[i]);
-	}
+			int c;
 
-	_putchar('\n');
-	return (0);
+				for (c = 0; c < 8; c++)
+						{
+									_putchar(abe[c]);
+										}
+					_putchar('\n');
+						return (0);
 }
