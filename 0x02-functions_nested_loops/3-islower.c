@@ -1,8 +1,10 @@
 # include "main.h"
 /**
- * _islower : checks whether a character is small
+ * _islower - checks for the small letter
+ * @c : is the number given
  *
- * Return : Always 0.
+ * Description : checks it
+ * Return - Always 0.
  */
 int _islower(int c)
 {
