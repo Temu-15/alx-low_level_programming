@@ -8,14 +8,15 @@
 int print_sign(int n)
 {
 	char ch[] = "+";
-	char neg[] = "-"
+	char neg[] = "-";
+
 	if (n > 0)
 	{
 		_putchar(ch[]);
 		return (1);
 	}
-	if else (n == 0)
-	{ 
+	if else(n == 0)
+	{
 		_putchar(0);
 		return (0);
 	}
