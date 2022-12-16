@@ -6,4 +6,5 @@
  * Desc: Header file containing declartions for all function
  */
 int _isupper(int c);
+int _isdigit(int c);
 #endif
